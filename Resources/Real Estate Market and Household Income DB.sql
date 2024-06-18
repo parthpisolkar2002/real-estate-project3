@@ -18,7 +18,7 @@ CREATE TABLE real_estate (
     street VARCHAR(255),
     city VARCHAR(255),
     state VARCHAR(255),
-    zip_code VARCHAR(10),
+    zip_code VARCHAR(10) , 
     house_size DECIMAL
 );
 
