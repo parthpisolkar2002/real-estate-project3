@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS households;
+DROP TABLE IF EXISTS real_estate;
+
 CREATE TABLE households (
     ZIP VARCHAR(10),
     Geography VARCHAR(255),
@@ -55,3 +58,5 @@ JOIN
     real_estate r 
 ON 
     h.ZIP = r.zip_code;
+	
+	
