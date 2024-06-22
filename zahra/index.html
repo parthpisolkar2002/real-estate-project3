@@ -5,15 +5,41 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <style>
-        #map {
-            height: 600px;
+         #selectors {
             width: 100%;
+            padding: 1%;
+            background: #f4f4f4;
+            margin-bottom: 1%;
+        }
+       #map, #heatMap {
+        width: 100%;
+        height: 400px;
+        float: left;
+        margin: 5%;
+        }
+        h2 {
+            text-align: center;
+            margin: 0.5em 0;
         }
     </style>
 </head>
 <body>
-    <h1>Plotting Data Using Zip Codes</h1>
+    <h1>Plotting Data Using Zip Codes</br><a></a></h1>
+    <div id="selectors">
+        <label for="stateSelector">State: </label>
+        <select id="stateSelector">
+            <option value="">Select State</option>
+        </select>
+    </div>
+    <h2> Real Estate Listings Map in the tristate</h2>
     <div id="map"></div>
+    <h2>Real Estate Price Heat Map</h2>
+    <div id="heatMap"></div>
+        
+        
+     <!-- Leaflet heatmap plugin-->
+     <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
     <!-- D3 JavaScript -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="script.js"></script>
