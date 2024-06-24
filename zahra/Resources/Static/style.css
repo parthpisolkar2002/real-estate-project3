@@ -1,0 +1,9 @@
+<style>
+#map, #heatMap {
+    width: 48%;
+    height: 600px;
+    float: left;
+    margin: 1%;
+}
+</style>
+  
