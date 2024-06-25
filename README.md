@@ -1,10 +1,12 @@
 # real-estate-project3
 
-Problem to Solve:
+Uncovering Market Trends: Real Estate and Income Correlation in the Tri-State Area
 
-We aim to investigate the relationship between real estate values and household income in the tristate area (New York, New Jersey, and Connecticut). Specifically, we want to determine whether higher household incomes in certain ZIP codes correlate with higher real estate prices in those same areas. By analyzing and comparing these datasets, we seek to uncover patterns and insights that can inform our understanding of real estate market dynamics and economic conditions across different regions within the tristate area.
+Project 3 Team: Zahra El Oula Kirati, Kyle McDaniel, Parth Pisolkar, Stephen Markovic & Genesis Ruiz
 
-Data Cleanup and Analysis:
+Primary Objective:
+ Examine the relationship between household incomes and real estate prices in select ZIP codes of the tri-state area from 2011 to 2021. 
 
-After selecting our datasets from Kaggle (USA Real Estate Dataset and US Household Income by ZIP Code), we explored and cleaned the data to include only the relevant information for the story we wanted to tell and the information we wanted to explore. We narrowed the USA real estate dataset to include only the tristate area and removed the column titled prev_sold_date. For the US Household Income data, we honed in exclusively on Household income, excluding categories such as Families, Married-Couple Families, and Nonfamily Households. 
+Secondary Objective:
+ Compare income levels and price per square foot between state capital cities and secondary cities to understand geographic influences on real estate trends.
 
