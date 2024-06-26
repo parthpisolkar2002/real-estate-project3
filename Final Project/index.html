@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zip Code Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <style>
+         #selectors {
+            width: 100%;
+            padding: 1%;
+            background: #f4f4f4;
+            margin-bottom: 1%;
+        }
+       #map, #heatMap {
+        width: 100%;
+        height: 400px;
+        float: left;
+        margin: 5%;
+        }
+        h2 {
+            text-align: center;
+            margin: 0.5em 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Real Estate Data Visualization</h1>
+    <nav>
+        <a href="income.html">Households Household Income By Zip Code</a>
+
+    </nav>
+    <nav>
+    <a href="sqft_price.html">Price by square foot</a>
+    </nav>
+
+    <h2>Plotting Data Using D3</br><a></a></h2>
+    <div id="selectors">
+        <label for="stateSelector">State: </label>
+        <select id="stateSelector">
+            <option value="">Select State</option>
+        </select>
+    </div>
+    <h2> Real Estate Listings Map in the tristate</h2>
+    <div id="map"></div>
+    <h2>Real Estate Price Heat Map</h2>
+    <div id="heatMap"></div>
+
+    <h2>Income changes by Year and Zip Codes</h2>
+  <!-- The div that holds our map -->
+  <div id="myPlot"></div>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  <!-- D3 and plotly JavaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- Our JavaScript -->
+  <script src="income.js"></script>
+   
+  
+
+     <!-- Leaflet heatmap plugin-->
+     <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
